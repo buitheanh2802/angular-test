@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # ProjectAngular
+=======
+# VnnProjectAngularTest
+>>>>>>> 9ff0ffd188c87bf336df68e1d2bfad62c143d8ce
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
 

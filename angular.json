@@ -3,9 +3,19 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "project-angular": {
       "projectType": "application",
       "schematics": {},
+=======
+    "vnn.project-angular-test": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
+>>>>>>> 9ff0ffd188c87bf336df68e1d2bfad62c143d8ce
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -13,19 +23,31 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/project-angular",
+=======
+            "outputPath": "dist/vnn.project-angular-test",
+>>>>>>> 9ff0ffd188c87bf336df68e1d2bfad62c143d8ce
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
+<<<<<<< HEAD
+=======
+            "inlineStyleLanguage": "scss",
+>>>>>>> 9ff0ffd188c87bf336df68e1d2bfad62c143d8ce
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "src/styles.css"
+=======
+              "src/styles.scss"
+>>>>>>> 9ff0ffd188c87bf336df68e1d2bfad62c143d8ce
             ],
             "scripts": []
           },
@@ -60,10 +82,17 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "browserTarget": "project-angular:build:production"
             },
             "development": {
               "browserTarget": "project-angular:build:development"
+=======
+              "browserTarget": "vnn.project-angular-test:build:production"
+            },
+            "development": {
+              "browserTarget": "vnn.project-angular-test:build:development"
+>>>>>>> 9ff0ffd188c87bf336df68e1d2bfad62c143d8ce
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +100,11 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "project-angular:build"
+=======
+            "browserTarget": "vnn.project-angular-test:build"
+>>>>>>> 9ff0ffd188c87bf336df68e1d2bfad62c143d8ce
           }
         },
         "test": {
@@ -82,12 +115,20 @@
               "zone.js/testing"
             ],
             "tsConfig": "tsconfig.spec.json",
+<<<<<<< HEAD
+=======
+            "inlineStyleLanguage": "scss",
+>>>>>>> 9ff0ffd188c87bf336df68e1d2bfad62c143d8ce
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "src/styles.css"
+=======
+              "src/styles.scss"
+>>>>>>> 9ff0ffd188c87bf336df68e1d2bfad62c143d8ce
             ],
             "scripts": []
           }
